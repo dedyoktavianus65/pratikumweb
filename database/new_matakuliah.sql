@@ -1,0 +1,1 @@
+CREATE TABLE `pratikum`.`matakuliah` ( `id` INT NOT NULL AUTO_INCREMENT , `nama_matakuliah` VARCHAR(255) NOT NULL , `hari` VARCHAR(255) NOT NULL , `jam` VARCHAR(255) NOT NULL , `dosen_id` INT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;

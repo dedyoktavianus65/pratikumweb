@@ -1,0 +1,21 @@
+1. Download Bootstrap Examples
+    https://getbootstrap.com/docs/5.1/examples/
+2. Buat folder project di htdocs
+3. Copy folder assets dari bootsrap examples ke project
+4. Copy folder sign-in dari bootsrap examples ke project
+5. Copy folder dashboard dari bootstrap examples ke project
+6. Buat File index.php dan arahkan ke index sign-in (header('Location: sign-in/index.php'))
+7. Pada sign-in/index.php tambahkan method post pada form, beri name pada komponen input dan tombol
+8. Tuliskan perintah untuk menggenerate loginSQL ketika tombol sign-in ditekan
+9. Buat database dan tabel pengguna
+10. Buat folder database dan file database.php
+11. isi database.php
+12. panggil Database
+13. buat connection dan statement
+14. if row count
+15. tambahkan alert
+16. ganti if login berhasil menjadi mengarah ke dashboard/index.php
+17. Pada sign-in/index.php, buat perintah memeriksa apakah sudah sign-in, jika sudah maka arahkan ke dashboard
+18. Pada dashboard/index.php, buat perintah memeriksa apakah sudah sign-in, jika belum maka arahkan ke sign-in
+19. Pada dashboard/index.php, buat perintah sign-out
+
